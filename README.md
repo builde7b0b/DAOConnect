@@ -13,3 +13,6 @@ With DataConnect, your data is securely stored on the robust Filecoin network, e
 Join DataConnect today and experience a social platform that prioritizes privacy, data ownership, and community governance like never before."
 
 
+![User Management System Flow Chart](images/User_Management_System.png)
+
+The backend API can integrate with a decentralized identity provider for secure authentication. User profile information is stored in a user database, associated with unique user identifiers.
