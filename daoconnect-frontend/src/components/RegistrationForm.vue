@@ -1,3 +1,5 @@
+
+
 <template>
     <form @submit="registerUser">
       <label for="username">Username</label>
@@ -14,6 +16,8 @@
   </template>
   
   <script>
+  import axios from 'axios';
+
   export default {
     data() {
       return {
