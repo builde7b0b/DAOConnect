@@ -11,3 +11,5 @@ DataConnect fosters a vibrant and engaged community, enabling social interaction
 With DataConnect, your data is securely stored on the robust Filecoin network, ensuring resilience, redundancy, and long-term data integrity. Embracing the power of decentralized storage, DataConnect revolutionizes social networking, offering a seamless user experience while empowering users to reclaim control over their personal data.
 
 Join DataConnect today and experience a social platform that prioritizes privacy, data ownership, and community governance like never before."
+
+
