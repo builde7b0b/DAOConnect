@@ -23,9 +23,18 @@
       };
     },
     methods: {
-      registerUser() {
-        // Implement the registration logic here
-      }
+        async registerUser() {
+    try {
+      const response = await axios.post('/register', {
+        username: this.username,
+        email: this.email,
+        password: this.password
+      });
+      console.log(response.data); // Optional: Handle success response
+    } catch (error) {
+      console.error(error); // Optional: Handle error response
+    }
+  }
     }
   };
   </script>
