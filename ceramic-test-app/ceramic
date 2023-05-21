@@ -1,0 +1,4 @@
+
+#!/usr/bin/env bash
+
+node /Users/wealthybeans/GIT/FEVM-Hackathon/ceramic-test-app/node_modules/.bin/ceramic "$@"
