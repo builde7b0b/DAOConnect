@@ -13,6 +13,8 @@
 </template>
 
 <script>
+import axios from 'axios';
+
 export default {
     data() {
         return {
@@ -29,6 +31,20 @@ export default {
                 username: this.username,
                 password: this.password
             }
+
+            axios.post('/api/login', loginData)
+            .then(response => {
+                //Handle successful login
+                const sessionToken = response.data.sessionToken;
+                // Store session token securely
+                //Redirect to the desired page
+                this.$router.push('/dashboard');
+            })
+            .catch(error => {
+                //Handle login error
+                console.error(error);
+            });
         }
     }
-}</script>
+}
+<script>
