@@ -6,7 +6,7 @@
   </template>
   
   <script>
-
+g
 import { ComposeClient } from '@composedb/client';
 import { EthereumWebAuth, getAccountId } from '@didtools/pkh-ethereum';
 import { ethers } from 'ethers';
