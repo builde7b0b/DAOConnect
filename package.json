@@ -13,6 +13,9 @@
   "author": "",
   "license": "ISC",
   "dependencies": {
-    "@ceramicnetwork/cli": "^2.30.0"
+    "@ceramicnetwork/cli": "^2.30.0",
+    "@didtools/pkh-ethereum": "^0.3.0",
+    "did-session": "^2.0.1",
+    "ethers": "^6.4.0"
   }
 }

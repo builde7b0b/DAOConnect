@@ -2,3 +2,5 @@
 daoconnect-frontend/node_modules/
 /node_modules
 /ceramic-test-app/node_modules
+/ceramic-test-app/admin.pk
+ceramic-test-app/admin.pk

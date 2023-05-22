@@ -4,9 +4,9 @@
     "hostname": "127.0.0.1",
     "port": 7071,
     "admin-dids": [
-      "did:key:z6MkffqFMjnZg28n4xggn5sNJSdKfaMGaj8L51m2TpwsfaGS",
-      "did:key:z6MkfQ8rimca8bquWzapySKSEH1qXnFeKEqf1GCx1Q8fRb8m",
-      "did:key:z6MkkND2vjnaMjnULjKag9Hgaa6qahRUp1S5i8iJ44uuwixy"
+      "did:key:z6Mkhiyh7QrVBFb52Y4BZ7YgSidmLmYsV4a3fTbFW8nQkHEh",
+      "did:key:z6Mks9uQCgWok9nataVemTVwkATyVt73XueD5th3BGWFzTzF",
+      "did:key:z6MkqAp3JY58Ug8Ws6LwgnabwFawfx5aPtc7Tnovy1WRKrCo"
     ]
   },
   "ipfs": {
@@ -24,14 +24,14 @@
     "name": "inmemory"
   },
   "node": {
-    "gateway": true
+    "gateway": false
   },
   "state-store": {
     "mode": "file",
-    "local-directory": "/Users/wealthybeans/GIT/FEVM-Hackathon/ceramic-test-app/ceramic-state"
+    "local-directory": "/etc/ceramic/data"
   },
   "indexing": {
-    "db": "sqlite:///Users/wealthybeans/GIT/FEVM-Hackathon/ceramic-test-app/ceramic.db",
+    "db": "sqlite:///Users/wealthybeans/GIT/FEVM-Hackathon/ceramic-test-app/ceramic-indexing/ceramic.db",
     "allow-queries-before-historical-sync": true,
     "enable-historical-sync": false
   }
