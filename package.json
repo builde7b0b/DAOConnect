@@ -16,7 +16,10 @@
     "@ceramicnetwork/cli": "^2.30.0",
     "@didtools/pkh-ethereum": "^0.3.0",
     "did-session": "^2.0.1",
-    "ethers": "^6.4.0"
+    "ethers": "^6.4.0",
+    "viem": "^0.3.35",
+    "wagmi": "^1.0.5",
+    "web3": "^1.10.0"
   },
   "devDependencies": {
     "@babel/plugin-proposal-private-methods": "^7.18.6"
