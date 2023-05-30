@@ -25,6 +25,15 @@
 ## DESCRIPTION
 "DataConnect is a revolutionary social platform powered by DataDAOS, leveraging the decentralized storage capabilities of Filecoin. It provides a secure and privacy-focused environment for users to connect, share, and collaborate. With DataConnect, users can seamlessly upload and share files, ranging from images to videos and documents, while retaining complete control over their data.
 
+### Approach 
+My goal was to build a simple social platform similar to twitter or instagram where user’s could create profiles and interact with posts utilizing filecoins protocol for decentralized storage of images and other media files uploaded by users as well as ComposeDB/Ceramic which is a decentralized database provider utilizing graphQL for storing the social interactions. 
+
+#### Benefits
+The main benefit of this approach to data management is user’s can share files while retaining complete control over their data empowering user’s with ownership and governance through the DAO implementation.
+
+##### Lessons Learned / Thoughts
+With more than 3-4 days to build, I strongly believe that my project would have been a very strong contender for the top prize , I learned/implemented everything from reading the Filecoin/ComposeDB documentation and am truly surprised by my ability to accomplish what I did and  thankful for the growth from the experience.
+
 ## Decentralization and Collective Ownership
 Built on the principles of decentralization, DataConnect empowers users with ownership and governance of their content. Through DataDAOS, users collectively manage and govern the platform, shaping its rules and policies through community-driven decision-making.
 
