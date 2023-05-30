@@ -34,8 +34,8 @@ methods: {
 
       // Get the accounts connected to the provider
       const accounts = await web3.eth.getAccounts();
-const accountId = await getAccountId(web3.currentProvider, accounts[0]);
-const authMethod = await EthereumWebAuth.getAuthMethod(web3.currentProvider, accountId);
+      const accountId = await getAccountId(web3.currentProvider, accounts[0]);
+      const authMethod = await EthereumWebAuth.getAuthMethod(web3.currentProvider, accountId);
 
 
       const client = new ComposeClient({ceramic: 'http://localhost:7007', definition});
@@ -49,7 +49,7 @@ const authMethod = await EthereumWebAuth.getAuthMethod(web3.currentProvider, acc
   },
 },
 created() {
-  this.connectToBackend();
+  
 },
 }
 

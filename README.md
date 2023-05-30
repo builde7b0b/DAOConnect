@@ -1,6 +1,10 @@
 # DAOCONNECT 
 ![Logo](images/logodaoconnect.png)
 
+
+[Read the Developer Blog Post - Pt 1.](Blog/Blog-pt-1.md)
+
+
 ## DAOCONNECT Table of Contents
 
 - [DAOCONNECT](#daoconnect)
@@ -34,10 +38,18 @@ With DataConnect, your data is securely stored on the robust Filecoin network, e
 Join DataConnect today and experience a social platform that prioritizes privacy, data ownership, and community governance like never before."
 
 
-# User Management
-![User Management System Flow Chart](images/User_Management_System.png)
+## Architecture 
+![Flow Chart](/images/FlowChart.png)
+
+### Vue Project Architecture
+![Vue Project Architecture](/images/Separation.png)
+
+
+## User Management & Authentication
+![Examples](/images/User_Management_System.png)
 
 The backend API can integrate with a decentralized identity provider for secure authentication. User profile information is stored in a user database, associated with unique user identifiers.
+
 
 
 
@@ -60,50 +72,29 @@ Overall, DataDAOs aim to empower individuals, protect their data rights, and cre
 
 Read more about dataDAO's by [CLICKING HERE](DataDAOs.md)
 
+## Technologies Used 
+- FEVM
+- Hardhat 
+- React
+- Node
+- Vue.js
+- Ceramic/ComposeDB
+- Smart Contracts
+- Remix IDE
 
 
 
-# Blog
+## User Stories 
+As a user, I want to create a unique profile on the platform, upload a profile picture, and provide a bio to express my identity and interests.
+
+As a user, I want to share photos, videos, and documents with my friends and followers on the platform, making it easy to upload and organize my content.
+
+As a user, I want to interact with others by leaving comments, liking their content, and sharing interesting posts with my network.
+
+As a user, I want control over my privacy settings, allowing me to choose who can see my content, manage follower requests, and customize my privacy preferences.
+
+As a user, I want to have a seamless and visually appealing user interface that provides a great user experience on both desktop and mobile devices.
 
 
-## Intro
 
-
-## Setup
-![Day1](images/Day1.png)
-I chose Vue for my frontend due to the ease of use and simple setup for smaller applications.
-I wanted to get an MVP up as quickly as possible as I only entered the hackathon just a few days before it was set to end on May 23rd. So basically I entered into a 3-4 Day Sprint.
-
-### Project Ideation
-I wanted to build something that the Hackathon organizers Filecoin actually requested and DataDAO's were high on that list. Having prior experience being a part of DAO's, it seemed interesting building something based on this new concept or at least it was new to me. The difference lies in that one focuses on the organization itself while the latter focuses on Data more importantly.
-
-## User Auth & Management 
-
-### Ceramic Setup
-
-#### First failed attempt using NPM manually.
-
-####  Failed Attempt using Wheel
-
-#### Miraculously Getting it Working - Yay!
-
-#### Accessing Examples Models - 
-![Examples](images/ceramic-models.png)
-
-### Creating the composite
-![Create Model](images/CreatedModel.png)
-
-### Compiling the composite
-![compile]()
-
-### Deploying the composite 
-[deployed]()
-
-### Started graphQL server 
-
-
-### Indexing Models
-[Index]()
-
-### Login
-![compile](images/didprovider.png)
+[Read the Developer Blog Post - Pt 1.](Blog/Blog-pt-1.md)
