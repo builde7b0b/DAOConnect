@@ -17,6 +17,17 @@ To better understand DataDAOS and its integration with Filecoin, explore the fol
 ### DataDAOS Documentation: 
 Refer to the official DataDAOS documentation for detailed information on the concepts, architecture, and functionalities of DataDAOS.
 Filecoin Documentation: Familiarize yourself with Filecoin's documentation to gain insights into the underlying storage network and its integration with DataDAOS.
+
 ### Developer Communities: 
 Engage with the DataDAOS and Filecoin developer communities to ask questions, seek guidance, and learn from others' experiences.
 By understanding DataDAOS and its integration with Filecoin, you'll be better equipped to utilize its features and capabilities to build a robust and efficient social platform. Feel free to explore these resources and ask any specific questions you may have.
+
+
+
+
+
+
+
+
+
+

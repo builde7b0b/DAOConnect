@@ -3,16 +3,18 @@
   <HelloWorld msg="Welcome to Your Vue.js App"/>
   <div id="app">
     <RegistrationForm />
+    <ComposeIntegration />
   </div>
 </template>
 
 <script>
-
+import ComposeIntegration from './components/ComposeIntegration.vue';
 import RegistrationForm from './components/RegistrationForm.vue';
 export default {
   name: 'App',
   components: {
     
+    ComposeIntegration,
     RegistrationForm
   }
 }

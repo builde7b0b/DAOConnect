@@ -1,0 +1,38 @@
+{
+  "anchor": {},
+  "http-api": {
+    "hostname": "127.0.0.1",
+    "port": 7071,
+    "admin-dids": [
+      "did:key:z6Mkhiyh7QrVBFb52Y4BZ7YgSidmLmYsV4a3fTbFW8nQkHEh",
+      "did:key:z6Mks9uQCgWok9nataVemTVwkATyVt73XueD5th3BGWFzTzF",
+      "did:key:z6MkqAp3JY58Ug8Ws6LwgnabwFawfx5aPtc7Tnovy1WRKrCo"
+    ]
+  },
+  "ipfs": {
+    "mode": "bundled"
+  },
+  "logger": {
+    "log-directory": "./log/ceramic",
+    "log-level": 2,
+    "log-to-files": true
+  },
+  "metrics": {
+    "metrics-exporter-enabled": false
+  },
+  "network": {
+    "name": "inmemory"
+  },
+  "node": {
+    "gateway": false
+  },
+  "state-store": {
+    "mode": "file",
+    "local-directory": "/etc/ceramic/data"
+  },
+  "indexing": {
+    "db": "sqlite:///Users/wealthybeans/GIT/FEVM-Hackathon/ceramic-test-app/ceramic-indexing/ceramic.db",
+    "allow-queries-before-historical-sync": true,
+    "enable-historical-sync": false
+  }
+}
